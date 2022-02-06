@@ -4,7 +4,7 @@
     {"id":{"name":"fontBuilder","path":"objects/fontBuilder/fontBuilder.yy",},"order":2,},
     {"id":{"name":"game","path":"objects/game/game.yy",},"order":1,},
     {"id":{"name":"clear_string","path":"scripts/clear_string/clear_string.yy",},"order":0,},
-    {"id":{"name":"spr_font8Bit","path":"sprites/spr_font8Bit/spr_font8Bit.yy",},"order":0,},
+    {"id":{"name":"spr_font16Bit","path":"sprites/spr_font16Bit/spr_font16Bit.yy",},"order":0,},
     {"id":{"name":"dictionary","path":"objects/dictionary/dictionary.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],

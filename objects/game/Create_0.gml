@@ -3,8 +3,8 @@
 
 x = room_width / 2;
 y = room_height / 2;
-font_size = 5;
-char_color = c_black;
+font_size = 1;
+char_color = c_white;
 
 // Load settings
 player_turn = 1;
