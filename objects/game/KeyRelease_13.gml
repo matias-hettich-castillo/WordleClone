@@ -8,7 +8,7 @@ if (state != 2 || state != 3)
 	if (string_length(player_word) < limit)
 	{
 		// Word not long enough
-		response = "SHORT";
+		response = "Too short";
 	}
 
 	else if (string_length(player_word) >= limit)
@@ -26,7 +26,7 @@ if (state != 2 || state != 3)
 				player_word = "";
 				game_word += chr(10);
 				state = 2;
-				response = "YUWIN";
+				response = "You Win!";
 			}
 	
 			else
@@ -39,7 +39,7 @@ if (state != 2 || state != 3)
 					player_word = "";
 					game_word += chr(10);
 					state = 3;
-					response = "LOSER";
+					response = "You loose!";
 				}
 		
 				else
@@ -51,7 +51,7 @@ if (state != 2 || state != 3)
 					keyboard_string = "";
 					game_word += chr(10);
 					player_turn += 1;
-					response = "RETRY";
+					response = "Try again!";
 				}
 			}
 		}
@@ -59,7 +59,7 @@ if (state != 2 || state != 3)
 		else
 		{
 			// Word doesnt exists
-			response = "WRONG";
+			response = "That word don't exist";
 		}
 	}
 

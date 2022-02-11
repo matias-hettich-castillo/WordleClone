@@ -1,6 +1,13 @@
 /// @description Game loop
 // You can write your code in this editor
 
+// hide the input_prompt if the word is long enough
+if (string_length(player_word) >= limit)
+{
+	// hide prompt
+	input_prompt = " ";
+}
+
 // All keyboard input to uppercase
 keyboard_string = string_upper(keyboard_string);
 

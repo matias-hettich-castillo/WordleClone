@@ -1,12 +1,21 @@
 {
   "resources": [
+    {"id":{"name":"spr_game_area","path":"sprites/spr_game_area/spr_game_area.yy",},"order":6,},
     {"id":{"name":"word_exists","path":"scripts/word_exists/word_exists.yy",},"order":1,},
+    {"id":{"name":"spr_game_title","path":"sprites/spr_game_title/spr_game_title.yy",},"order":2,},
+    {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":5,},
+    {"id":{"name":"obj_button_new_game","path":"objects/obj_button_new_game/obj_button_new_game.yy",},"order":3,},
     {"id":{"name":"spr_font16Bit","path":"sprites/spr_font16Bit/spr_font16Bit.yy",},"order":1,},
     {"id":{"name":"fontBuilder","path":"objects/fontBuilder/fontBuilder.yy",},"order":2,},
     {"id":{"name":"game","path":"objects/game/game.yy",},"order":1,},
+    {"id":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},"order":2,},
     {"id":{"name":"clear_string","path":"scripts/clear_string/clear_string.yy",},"order":0,},
+    {"id":{"name":"rm_game_screen","path":"rooms/rm_game_screen/rm_game_screen.yy",},"order":1,},
+    {"id":{"name":"obj_button_exit","path":"objects/obj_button_exit/obj_button_exit.yy",},"order":4,},
+    {"id":{"name":"spr_button_new_game","path":"sprites/spr_button_new_game/spr_button_new_game.yy",},"order":3,},
     {"id":{"name":"spr_font16Bit_S","path":"sprites/spr_font16Bit_S/spr_font16Bit_S.yy",},"order":0,},
     {"id":{"name":"dictionary","path":"objects/dictionary/dictionary.yy",},"order":0,},
+    {"id":{"name":"spr_button_exit","path":"sprites/spr_button_exit/spr_button_exit.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
@@ -21,6 +30,8 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_title_screen","path":"rooms/rm_title_screen/rm_title_screen.yy",},},
+    {"roomId":{"name":"rm_game_screen","path":"rooms/rm_game_screen/rm_game_screen.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "Folders": [
