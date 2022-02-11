@@ -3,4 +3,6 @@
 
 state = 1;
 
+// Action
+
 game_end();

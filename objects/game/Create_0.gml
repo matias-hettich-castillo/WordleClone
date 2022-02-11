@@ -8,10 +8,9 @@ x = view_x_diff * x;
 y = view_y_diff * y;
 
 input_prompt = "|";
-alarm_set(0, 30);
+alarm_set(0, 15);
 
 font_size = 8;
-char_color = c_white;
 
 // Load settings
 player_turn = 1;
@@ -19,10 +18,11 @@ player_word = "";
 limit = 5;
 
 state = "0";
-response = "Enter your word";
+response = "Enter word";
 
-pos = random(4);
+randomize();
+pos = random(2303);
 word = dictionary.words[pos];
-game_word = "";
+game_word = word;
 
 state = "1";

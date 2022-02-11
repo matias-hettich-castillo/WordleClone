@@ -3,4 +3,6 @@
 
 state = 1;
 
+// Action
+
 room_goto(rm_game_screen);

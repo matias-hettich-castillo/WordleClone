@@ -8,4 +8,4 @@ if (string_length(player_word) < limit)
 else {
 	input_prompt = " ";
 }
-alarm_set(0, 30);
+alarm_set(0, 15);

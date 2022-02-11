@@ -2,4 +2,4 @@
 // You can write your code in this editor
 
 input_prompt = " ";
-alarm_set(1, 30);
+alarm_set(1, 15);
