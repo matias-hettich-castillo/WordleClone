@@ -22,7 +22,7 @@ if (state == "0")
 {
 	// Choose word
 	pos = random(4);
-	word = dictionary.words[pos];
+	word = dictionary.words_esp[pos];
 	state = "1";
 }
 
