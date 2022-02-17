@@ -1,6 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-win_score = 0;
-lose_score = 0;
-languaje = 1;
+image = spr_letter_show;
+subimage = 0;

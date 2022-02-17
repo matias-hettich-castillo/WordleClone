@@ -22,8 +22,8 @@ state = "0";
 response = "Enter word";
 
 randomize();
-pos = random(2250);
-word = dictionary.words_esp[pos];
+pos = random(300);
+word = dictionary.words[pos];
 game_word = word;
 
 state = "1";
