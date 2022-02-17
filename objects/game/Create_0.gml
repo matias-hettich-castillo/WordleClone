@@ -15,7 +15,7 @@ font_size = 8;
 // Load settings
 player_turn = 1;
 player_word = "";
-limit = 4;
+limit = 5;
 obj_button_retry.visible = false;
 
 state = "0";

@@ -25,10 +25,9 @@
   "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"0f0c0274-287f-40a5-9ddb-ebde1363860d","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"37b5035d-cf08-477f-b5a7-b50cdf895db2","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-        {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"43ebfaa7-1b99-42c4-bc09-358888a4c214","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
         {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"989f95eb-1b2d-4e1d-beea-4a94a78dbd79","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"0f0c0274-287f-40a5-9ddb-ebde1363860d","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+        {"FrameId":{"name":"c44d54ff-9596-44fd-b22a-c85be370daad","path":"sprites/spr_game_title/spr_game_title.yy",},"LayerId":{"name":"3be2bad0-c57a-463f-988a-e69b42e9f4a0","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
       ],"parent":{"name":"spr_game_title","path":"sprites/spr_game_title/spr_game_title.yy",},"resourceVersion":"1.0","name":"c44d54ff-9596-44fd-b22a-c85be370daad","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
@@ -68,9 +67,8 @@
     "resourceType": "GMSequence",
   },
   "layers": [
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 4","resourceVersion":"1.0","name":"3be2bad0-c57a-463f-988a-e69b42e9f4a0","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 3","resourceVersion":"1.0","name":"989f95eb-1b2d-4e1d-beea-4a94a78dbd79","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2 (2)","resourceVersion":"1.0","name":"43ebfaa7-1b99-42c4-bc09-358888a4c214","tags":[],"resourceType":"GMImageLayer",},
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 2","resourceVersion":"1.0","name":"37b5035d-cf08-477f-b5a7-b50cdf895db2","tags":[],"resourceType":"GMImageLayer",},
     {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"Layer 1","resourceVersion":"1.0","name":"0f0c0274-287f-40a5-9ddb-ebde1363860d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
