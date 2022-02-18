@@ -9,7 +9,16 @@ draw_text_transformed(x - (15 * 8 * view_x_diff), y - (4 * 8 * view_y_diff), str
 
 draw_set_halign(fa_left);
 draw_set_color(c_white);
-player_score = "W: " + string(obj_player.win_score) + " / L: " + string(obj_player.lose_score);
+if (obj_player.languaje == 1)
+{
+	player_score = "W: " + string(obj_player.win_score) + " / L: " + string(obj_player.lose_score);
+}
+
+else
+{
+	player_score = "G: " + string(obj_player.win_score) + " / P: " + string(obj_player.lose_score);
+}
+
 draw_text_transformed(x + (2 * 8 * view_x_diff), y - (4 * 8 * view_y_diff), player_score, font_size, font_size, image_angle);
 
 draw_set_halign(fa_middle);

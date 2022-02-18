@@ -19,7 +19,17 @@ limit = 5;
 obj_button_retry.visible = false;
 
 state = "0";
-response = "Enter word";
+
+if (obj_player.languaje == 1)
+{
+	response = "Enter word.";
+}
+
+else
+{
+	response = "Escribe.";
+}
+
 
 randomize();
 pos = random(300);

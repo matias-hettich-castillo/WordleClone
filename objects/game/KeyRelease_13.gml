@@ -8,7 +8,16 @@ if (state != 2 || state != 3)
 	if (string_length(player_word) < limit)
 	{
 		// Word not long enough
-		response = "Too short.";
+		if (obj_player.languaje == 1)
+		{
+			response = "Too short.";
+		}
+
+		else
+		{
+			response = "Muy corta.";
+		}
+		
 	}
 
 	else if (string_length(player_word) >= limit)
@@ -102,7 +111,15 @@ if (state != 2 || state != 3)
 				player_word = "";
 				game_word += chr(10);
 				state = 2;
-				response = "You Win!";
+				if (obj_player.languaje == 1)
+				{
+					response = "You win!";
+				}
+
+				else
+				{
+					response = "¡Ganaste!";
+				}
 				obj_player.win_score++;
 				obj_button_retry.visible = true;
 			}
@@ -229,7 +246,15 @@ if (state != 2 || state != 3)
 					player_word = "";
 					game_word += chr(10);
 					state = 3;
-					response = "You loose.";
+					if (obj_player.languaje == 1)
+					{
+						response = "You loose.";
+					}
+
+					else
+					{
+						response = "Perdiste.";
+					}
 					obj_player.lose_score++;
 					obj_button_retry.visible = true;
 				}
@@ -604,7 +629,15 @@ if (state != 2 || state != 3)
 					keyboard_string = "";
 					game_word += chr(10);
 					player_turn += 1;
-					response = "Try again.";
+					if (obj_player.languaje == 1)
+					{
+						response = "Try again.";
+					}
+
+					else
+					{
+						response = "De nuevo.";
+					}
 				}
 			}
 		}
@@ -612,7 +645,15 @@ if (state != 2 || state != 3)
 		else
 		{
 			// Word doesnt exists
-			response = "No word.";
+			if (obj_player.languaje == 1)
+			{
+				response = "Not a word.";
+			}
+
+			else
+			{
+				response = "No existe.";
+			}
 		}
 	}
 

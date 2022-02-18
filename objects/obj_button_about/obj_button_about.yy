@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_button_about",
-    "path": "sprites/spr_button_about/spr_button_about.yy",
+    "name": "spr_button_about_esp",
+    "path": "sprites/spr_button_about_esp/spr_button_about_esp.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,6 +27,7 @@
     {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
