@@ -1,16 +1,24 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function scr_array_search(array, item){
-	show_debug_message("letter: " + string(item));
-	position = -1;
-	for (i = 0; i < array_length(array); i++)
+/// @function		scr_array_search(array, item)
+/// @description	Gets the position of an item in an array, returns -1 if not found
+/// @param	array	array of items to search
+/// @param	item	item to be searched
+/// @return	{real}
+
+function array_search(array, item)
+{
+	var position = -1
+	
+	// Check each array item
+	for (var i = 0; i < array_length(array); i++)
 	{
+		// If the item is found, get the position
 		if (array[i] == item)
 		{
-			position = i;
-			break;
+			position = i
+			break
 		}
 	}
-	show_debug_message("position: " + string(position));
-	return position;
+	
+	// Return the position
+	return position
 }

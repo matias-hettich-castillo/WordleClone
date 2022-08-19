@@ -1,7 +1,11 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_player_icon",
+    "path": "sprites/spr_player_icon/spr_player_icon.yy",
+  },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": true,
   "parentObjectId": null,
@@ -23,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Controllers",
+    "path": "folders/Objects/Controllers.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_player",

@@ -1,8 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+event_inherited()
 
-state = 1;
-
-// Action
-
-room_goto(rm_game_screen);
+// Define button action
+room_goto(rm_game_screen)

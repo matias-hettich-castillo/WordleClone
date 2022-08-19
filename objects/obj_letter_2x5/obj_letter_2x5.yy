@@ -1,10 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_letter_icon",
+    "path": "sprites/spr_letter_icon/spr_letter_icon.yy",
+  },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_letter_input",
+    "path": "objects/obj_letter_input/obj_letter_input.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -17,15 +24,12 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "LetterInputs",
+    "path": "folders/Objects/GamePieces/LetterInputs.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_letter_2x5",
