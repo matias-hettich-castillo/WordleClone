@@ -12,6 +12,7 @@ letter_color_good = c_orange
 letter_color_wrong = $312B25
 
 // Game Settings
+keyboard_string = ""// Reset keyboard string
 player_turn = 1		// Player attempts counter
 player_word = ""	// Player input word
 limit = 5			// Max input word limit
