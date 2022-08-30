@@ -24,7 +24,7 @@ word = DICTIONARY[position]
 show_debug_message(word)
 
 // Game Responses
-response = "Enter word."		// Game start message
+response = "Type word."		// Game start message
 win_message = "You win!"		// You win the game message
 lose_message = "You lose."		// You lose the game message
 again_message = "Try again!"	// Wrong word, try again message

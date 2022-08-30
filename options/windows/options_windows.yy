@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Wordless Clone",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.1.1.0",
+  "option_windows_version": "1.2.1.0",
   "option_windows_company_info": "Matias Hettich",
   "option_windows_product_info": "Created with GameMaker Studio 2",
   "option_windows_copyright_info": "Copyright (c) 2022 Matias Hettich",

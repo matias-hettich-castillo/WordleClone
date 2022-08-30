@@ -10,6 +10,9 @@ if (game_state == game_states.play)
 			#region Correct Answer
 			if (player_word == word)
 			{
+				// Play correct sound
+				audio_play_sound(snd_correct, 100, false)
+				
 				#region Paint Letter Hints (Wrong, Correct or Exact)
 				// Check which player letters are correct in the game word
 				array_exist = [0, 0, 0, 0, 0]
@@ -145,6 +148,9 @@ if (game_state == game_states.play)
 			#region Incorrect Answer
 			else
 			{
+				// Play incorrect sound
+				audio_play_sound(snd_wrong, 100, false)
+				
 				#region Lose Game
 				// Check for lose state in last player turn
 				if (player_turn == limit)
@@ -469,10 +475,16 @@ if (game_state == game_states.play)
 		
 		// Word is not in the dictionary
 		else
+		{
 			response = nodict_message
+			audio_play_sound(snd_miss, 100, false)
+		}
 	}
 
 	// Word is too short
 	else
+	{
 		response = short_message
+		audio_play_sound(snd_miss, 100, false)
+	}
 }

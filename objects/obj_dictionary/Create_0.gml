@@ -29,7 +29,10 @@
 				"TOPIC","TOTAL","TOUCH","TRADE","TRAIN","TREAT","TREND","TRIAL","TRIED","TRIES",
 				"TRUST","TRUTH","TWICE","UNDER","UNION","UPSET","URBAN","USAGE","USUAL","VALID",
 				"VALUE","VIDEO","VIRUS","WASTE","WATCH","WATER","WHEEL","WHERE","WHICH","WHILE",
-				"WHITE","WOMAN","WORLD","WORRY","WORSE","WORST","WRITE","WRONG","WROTE","YIELD"];
+				"WHITE","WOMAN","WORLD","WORRY","WORSE","WORST","WRITE","WRONG","WROTE","YIELD",
+				"RAVEN", "DAISY", "FLEET", "MINER", "GHOUL", "THORN", "BORED", "TIMER", "SOARE",
+				"STARE", "SAREE", "ROATE", "SEARE", "RAISE", "CRANE", "SLATE", "CRATE", "SLANT",
+				"TRACE", "LANCE", "CARTE", "LEAST", "TRICE", "ROAST", "DRAIN", "ROBOT", "BLAST"];
 #endregion
 
 #region Dictionary
@@ -38,4 +41,20 @@
 
 	// Set dictionary macro
 	#macro DICTIONARY obj_dictionary.dictionary
+#endregion
+
+#region
+	background_text = array_create(0)
+	background_text_color = $AA9D80
+	background_text_alpha = array_create(0)
+	background_text_alpha_change = array_create(0)
+	randomize()
+	repeat (33)
+	{
+		array_push(background_text, DICTIONARY[random(array_length(DICTIONARY))])
+		array_push(background_text_alpha, irandom(10)/10)
+		array_push(background_text_alpha_change, 0.1)
+	}
+	
+	alarm_set(0, 15)
 #endregion
