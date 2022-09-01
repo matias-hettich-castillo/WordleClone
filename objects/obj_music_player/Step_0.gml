@@ -1,3 +1,6 @@
+// Set the main game volume
+audio_master_gain(master_volume)
+
 // Play the main theme on title and about screens
 if (room == rm_title_screen || room == rm_about_screen)
 {
@@ -10,7 +13,9 @@ if (room == rm_title_screen || room == rm_about_screen)
 		
 	// Play main theme loop
 	if (!audio_is_playing(background_music))
+	{
 		background_music = audio_play_sound(main_theme.music, main_theme.priority, main_theme.loop)
+	}
 }
 
 if (room == rm_game_screen)
@@ -47,43 +52,43 @@ if (room == rm_game_screen)
 			switch (obj_game.player_turn)
 			{
 				case 1:
-					audio_sound_gain(drum_looper, 0.5, 0)
+					audio_sound_gain(drum_looper, master_volume, 0)
 					break
 		
 				case 2:
-					audio_sound_gain(drum_looper, 0.5, 0)
-					audio_sound_gain(bass_looper, 0.5, 0)
+					audio_sound_gain(drum_looper, master_volume, 0)
+					audio_sound_gain(bass_looper, master_volume, 0)
 					break
 		
 				case 3:
-					audio_sound_gain(drum_looper, 0.5, 0)
-					audio_sound_gain(bass_looper, 0.5, 0)
-					audio_sound_gain(synth_looper, 0.5, 0)
+					audio_sound_gain(drum_looper, master_volume, 0)
+					audio_sound_gain(bass_looper, master_volume, 0)
+					audio_sound_gain(synth_looper, master_volume, 0)
 					break
 			
 				case 4:
-					audio_sound_gain(drum_looper, 0.5, 0)
-					audio_sound_gain(bass_looper, 0.5, 0)
-					audio_sound_gain(synth_looper, 0.5, 0)
-					audio_sound_gain(melody_1_looper, 0.5, 0)
+					audio_sound_gain(drum_looper, master_volume, 0)
+					audio_sound_gain(bass_looper, master_volume, 0)
+					audio_sound_gain(synth_looper, master_volume, 0)
+					audio_sound_gain(melody_1_looper, master_volume, 0)
 					break
 			
 				case 5:
-					audio_sound_gain(drum_looper, 0.5, 0)
-					audio_sound_gain(bass_looper, 0.5, 0)
-					audio_sound_gain(synth_looper, 0.5, 0)
-					audio_sound_gain(melody_1_looper, 0.5, 0)
-					audio_sound_gain(melody_2_looper, 0.5, 0)
+					audio_sound_gain(drum_looper, master_volume, 0)
+					audio_sound_gain(bass_looper, master_volume, 0)
+					audio_sound_gain(synth_looper, master_volume, 0)
+					audio_sound_gain(melody_1_looper, master_volume, 0)
+					audio_sound_gain(melody_2_looper, master_volume, 0)
 					break
 			}
 			
 		else
 		{
-			audio_sound_gain(drum_looper, 0.5, 0)
-			audio_sound_gain(bass_looper, 0.5, 0)
-			audio_sound_gain(synth_looper, 0.5, 0)
-			audio_sound_gain(melody_1_looper, 0.5, 0)
-			audio_sound_gain(melody_2_looper, 0.5, 0)
+			audio_sound_gain(drum_looper, master_volume, 0)
+			audio_sound_gain(bass_looper, master_volume, 0)
+			audio_sound_gain(synth_looper, master_volume, 0)
+			audio_sound_gain(melody_1_looper, master_volume, 0)
+			audio_sound_gain(melody_2_looper, master_volume, 0)
 		}
 	}
 	

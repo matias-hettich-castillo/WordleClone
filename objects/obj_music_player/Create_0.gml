@@ -1,3 +1,8 @@
+// Master volume
+max_volume = 0.7
+min_volume = 0
+master_volume = max_volume
+
 // Game Main Theme
 main_theme = {
 	music: mus_main_theme,

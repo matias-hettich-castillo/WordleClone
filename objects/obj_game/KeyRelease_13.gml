@@ -125,7 +125,7 @@ if (game_state == game_states.play)
 				}
 				#endregion
 				
-				#region Set Game State and Default Variables
+				#region Set Game State, Save and Default Variables
 				// Change gamestate to win
 				game_state = game_states.win
 				
@@ -138,6 +138,9 @@ if (game_state == game_states.play)
 				// Reset strings
 				keyboard_string = ""
 				player_word = ""
+				
+				// Save game
+				save_game()
 				
 				// Show retry button
 				obj_button_retry.visible = true
@@ -252,6 +255,9 @@ if (game_state == game_states.play)
 					// Reset strings
 					keyboard_string = ""
 					player_word = ""
+					
+					// Save game
+					save_game()
 					
 					// Show retry button
 					obj_button_retry.visible = true

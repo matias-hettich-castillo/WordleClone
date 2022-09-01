@@ -1,5 +1,5 @@
 {
-  "option_operagx_version": "1.2.1.0",
+  "option_operagx_version": "1.2.2.1",
   "option_operagx_next_version": "1.0.0.0",
   "option_operagx_game_name": "Wordle Clone",
   "option_operagx_interpolate_pixels": false,

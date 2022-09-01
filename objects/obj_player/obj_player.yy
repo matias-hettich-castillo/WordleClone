@@ -8,7 +8,10 @@
   "managed": true,
   "spriteMaskId": null,
   "persistent": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_save_me",
+    "path": "objects/obj_save_me/obj_save_me.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
