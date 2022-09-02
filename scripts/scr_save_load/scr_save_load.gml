@@ -30,6 +30,25 @@ function save_game()
 	buffer_delete(_buffer)
 	
 	show_debug_message("Game Saved " + _string)
+	
+	// Upload player score if challenge is active	
+	if (gxc_get_query_param("challenge") == global.ch_top_players)
+	{
+	    gxc_challenge_submit_score(obj_player.win_score, function (_status, _result)
+	    {
+	        if (_status == 200)
+	        {
+				// Show retry button if the score was uploaded correctly
+	            with(obj_button_retry) visible = true
+	        }
+	    })
+	}
+	
+	else
+	{
+		// Show retry button if challenge is not active
+		with(obj_button_retry) visible = true
+	}
 }
 
 // Loads all the data of the game

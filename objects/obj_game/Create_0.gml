@@ -21,7 +21,7 @@ limit = 5			// Max input word limit
 randomize()
 var position = random(array_length(DICTIONARY))
 word = DICTIONARY[position]
-show_debug_message(word)
+//show_debug_message(word)
 
 // Game Responses
 response = "Type word."		// Game start message

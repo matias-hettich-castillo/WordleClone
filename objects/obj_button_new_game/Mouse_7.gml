@@ -1,7 +1,7 @@
 event_inherited()
 
 // Define button action
-if (!global.mid_transition)
+if (!global.mid_transition and visible)
 {
 	// Load Game
 	load_game()

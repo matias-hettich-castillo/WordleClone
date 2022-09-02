@@ -139,11 +139,9 @@ if (game_state == game_states.play)
 				keyboard_string = ""
 				player_word = ""
 				
-				// Save game
+				// Save game (Show retry button is inside this method)
 				save_game()
 				
-				// Show retry button
-				obj_button_retry.visible = true
 				#endregion
 			}
 			#endregion

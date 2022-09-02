@@ -1,4 +1,5 @@
 event_inherited()
 
 // Define button action
-room_goto(rm_game_screen);
+if (!global.mid_transition and visible)
+	transition_start(rm_game_screen, sq_fadeout, sq_fadein)

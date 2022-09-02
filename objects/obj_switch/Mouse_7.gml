@@ -1,4 +1,4 @@
-if (!global.mid_transition)
+if (!global.mid_transition and visible)
 {
 	switch(switch_state)
 	{

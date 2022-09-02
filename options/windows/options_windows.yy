@@ -1,7 +1,7 @@
 {
   "option_windows_display_name": "Wordless Clone",
   "option_windows_executable_name": "${project_name}.exe",
-  "option_windows_version": "1.2.2.1",
+  "option_windows_version": "1.3.2.2",
   "option_windows_company_info": "Matias Hettich",
   "option_windows_product_info": "Created with GameMaker Studio 2",
   "option_windows_copyright_info": "Copyright (c) 2022 Matias Hettich",
@@ -10,7 +10,7 @@
   "option_windows_icon": "${base_options_dir}/windows/icons/icon.ico",
   "option_windows_save_location": 0,
   "option_windows_splash_screen": "${base_options_dir}/windows/splash/splash.png",
-  "option_windows_use_splash": true,
+  "option_windows_use_splash": false,
   "option_windows_start_fullscreen": false,
   "option_windows_allow_fullscreen_switching": true,
   "option_windows_interpolate_pixels": false,
