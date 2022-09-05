@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-y -= 8
+y -= scroll_step
 
-if (y < -110)
+if (y < scroll_bottom)
 {
-	y = -110
+	y = scroll_bottom
 	audio_play_sound(snd_miss, 100, false)
 }
 

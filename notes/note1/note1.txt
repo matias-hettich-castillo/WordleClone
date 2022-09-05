@@ -4,7 +4,7 @@ https://en.wikipedia.org/wiki/Wordle
 Sound effects made in: https://sfxr.me
 
 Color pallete and ui inspired by:
-https://lospec.com/palette-list/forest-16
+https://lospec.com/palette-list/ty-shades-of-nokia-12
 
 Original music composed in Garage Band by:
 Matias Hettich
