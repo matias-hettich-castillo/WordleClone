@@ -22,6 +22,15 @@ function save_game()
 		array_push(_save_data, _save_entity)
 	}
 	
+	// Save sound option value
+	var _save_entity =
+	{
+		obj : object_get_name(obj_music_player),
+		value: obj_music_player.master_volume
+	}
+	
+	array_push(_save_data, _save_entity)
+	
 	// Turn all this data into a JSON string and save it via a buffer
 	var _string = json_stringify(_save_data)
 	var _buffer = buffer_create(string_byte_length(_string) + 1, buffer_fixed, 1)
@@ -52,12 +61,12 @@ function save_game()
 }
 
 // Loads all the data of the game
-function load_game()
+function load_game(_option = 0)
 {
 	if (file_exists("savegame.save"))
 	{
 		// Erase current game state
-		with(obj_save_me) instance_destroy()
+		if (_option == 0) with(obj_save_me) instance_destroy()
 	
 		var _buffer = buffer_load("savegame.save")
 		var _string = buffer_read(_buffer, buffer_string)
@@ -68,15 +77,28 @@ function load_game()
 		while(array_length(_load_data) > 0)
 		{
 			var _load_entity = array_pop(_load_data)
-			with (instance_create_layer(0, 0, layer, asset_get_index(_load_entity.obj)))
+			
+			if (_option == 1)
 			{
-				x = _load_entity.x
-				y = _load_entity.y
-				image_blend = _load_entity.image_blend
-				image_index = _load_entity.image_index
-				win_score = _load_entity.win_score
-				lose_score = _load_entity.lose_score
-				persistent = _load_entity.persistent
+				if (_load_entity.obj == "obj_music_player")
+					obj_music_player.master_volume = _load_entity.value
+			}
+			
+			else
+			{
+				if (_load_entity.obj == "obj_player")
+				{
+					with (instance_create_layer(0, 0, layer, asset_get_index(_load_entity.obj)))
+					{
+						x = _load_entity.x
+						y = _load_entity.y
+						image_blend = _load_entity.image_blend
+						image_index = _load_entity.image_index
+						win_score = _load_entity.win_score
+						lose_score = _load_entity.lose_score
+						persistent = _load_entity.persistent
+					}
+				}
 			}
 		}
 		

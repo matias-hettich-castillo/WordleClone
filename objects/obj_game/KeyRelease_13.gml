@@ -248,7 +248,7 @@ if (game_state == game_states.play)
 					obj_player.lose_score++
 					
 					// Show game response lose message
-					response = lose_message
+					response = lose_message + word
 					
 					// Reset strings
 					keyboard_string = ""
@@ -465,8 +465,11 @@ if (game_state == game_states.play)
 					// Show try again message
 					response = again_message
 					
-					// Next turn
+					// Next turn arrows on/off
+					turn_arrows[player_turn-1].set_visible(false)
 					player_turn += 1;
+					turn_arrows[player_turn-1].set_visible(true)
+					
 					
 					// Reset strings
 					keyboard_string = "";

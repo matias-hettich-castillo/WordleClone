@@ -50,3 +50,6 @@ bass_looper = noone
 synth_looper = noone
 melody_1_looper = noone
 melody_2_looper = noone
+
+// Load music options
+load_game(1)

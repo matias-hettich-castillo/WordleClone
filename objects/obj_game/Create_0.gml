@@ -17,6 +17,15 @@ player_turn = 1		// Player attempts counter
 player_word = ""	// Player input word
 limit = 5			// Max input word limit
 
+// Turn arrows handling
+turn_arrows = array_create(0)
+array_push(turn_arrows, instance_create_layer(64, 30, "Instances", obj_turn_arrow))
+array_push(turn_arrows, instance_create_layer(64, 41, "Instances", obj_turn_arrow))
+array_push(turn_arrows, instance_create_layer(64, 52, "Instances", obj_turn_arrow))
+array_push(turn_arrows, instance_create_layer(64, 63, "Instances", obj_turn_arrow))
+array_push(turn_arrows, instance_create_layer(64, 74, "Instances", obj_turn_arrow))
+turn_arrows[0].set_visible(true)
+
 // Choose Random Game Word
 randomize()
 var position = random(array_length(DICTIONARY))
@@ -25,8 +34,8 @@ word = DICTIONARY[position]
 
 // Game Responses
 response = "Type word."		// Game start message
-win_message = "You win!"		// You win the game message
-lose_message = "You lose."		// You lose the game message
+win_message = "Correct!"		// You win the game message
+lose_message = "Word: "		// You lose the game message
 again_message = "Try again!"	// Wrong word, try again message
 nodict_message = "Not in dict."	// Word not in dictionary message
 short_message = "Too short."	// Word too short message
