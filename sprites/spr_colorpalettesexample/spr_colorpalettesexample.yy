@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_colorPalettesExample",
   "bboxMode": 0,
   "collisionKind": 1,
   "type": 0,
@@ -14,6 +17,7 @@
   "HTile": false,
   "VTile": false,
   "For3D": false,
+  "DynamicTexturePage": false,
   "width": 464,
   "height": 120,
   "textureGroupId": {
@@ -103,12 +107,12 @@
   "gridX": 1,
   "gridY": 1,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"71c762d7-1478-4171-8dc8-850bf0e38d45","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"71c762d7-1478-4171-8dc8-850bf0e38d45","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"LayerId":{"name":"70469915-728a-4a13-9fdd-06f66b8083be","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"spr_colorPalettesExample","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"resourceVersion":"1.0","name":"71c762d7-1478-4171-8dc8-850bf0e38d45","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"71c762d7-1478-4171-8dc8-850bf0e38d45",},
   ],
   "sequence": {
-    "spriteId": {"name":"spr_colorPalettesExample","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "spr_colorPalettesExample",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -116,12 +120,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"9f9a1bd9-c7c3-46a7-b4ea-39ee879bca97","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71c762d7-1478-4171-8dc8-850bf0e38d45","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"9f9a1bd9-c7c3-46a7-b4ea-39ee879bca97","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"71c762d7-1478-4171-8dc8-850bf0e38d45","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -137,22 +141,13 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"spr_colorPalettesExample","path":"sprites/spr_colorPalettesExample/spr_colorPalettesExample.yy",},
-    "resourceVersion": "1.4",
-    "name": "spr_colorPalettesExample",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"70469915-728a-4a13-9fdd-06f66b8083be","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"70469915-728a-4a13-9fdd-06f66b8083be","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "ColorPalettes",
     "path": "folders/Sprites/ColorPalettes.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "spr_colorPalettesExample",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

@@ -1,6 +1,9 @@
 {
-  "option_operagx_version": "1.3.2.3",
-  "option_operagx_next_version": "1.3.3.3",
+  "resourceType": "GMOperaGXOptions",
+  "resourceVersion": "1.0",
+  "name": "operagx",
+  "option_operagx_version": "1.4.3.4",
+  "option_operagx_next_version": "1.4.3.5",
   "option_operagx_game_name": "Wordle Clone",
   "option_operagx_interpolate_pixels": false,
   "option_operagx_scale": 0,
@@ -12,8 +15,4 @@
   "option_operagx_editUrl": "https://create.gx.games/game/b94c8a06-773a-4a1e-96e3-26898128a718/edit",
   "option_operagx_internalShareUrl": "https://gx.games/games/vy7jy4/wordle-clone/tracks/518be8f1-1904-417a-b2a6-be1564d14245/",
   "option_operagx_publicShareUrl": "https://gx.games/games/vy7jy4/wordle-clone/",
-  "resourceVersion": "1.0",
-  "name": "operagx",
-  "tags": [],
-  "resourceType": "GMOperaGXOptions",
 }

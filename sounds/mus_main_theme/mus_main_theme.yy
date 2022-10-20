@@ -1,6 +1,9 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mus_main_theme",
   "conversionMode": 0,
-  "compression": 0,
+  "compression": 1,
   "volume": 0.5,
   "preload": false,
   "bitRate": 128,
@@ -17,8 +20,4 @@
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mus_main_theme",
-  "tags": [],
-  "resourceType": "GMSound",
 }
