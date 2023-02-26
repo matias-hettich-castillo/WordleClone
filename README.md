@@ -1,3 +1,7 @@
+![imagen](https://user-images.githubusercontent.com/7623785/221444822-232c4dff-1296-4fec-91ab-a4528d17c251.png)
+
+Repository of WordleClone, a game made in GameMaker Studio 2. Based on the original game made by Josh Wardle 
+
 # WordleClone
 
 Original game by Josh Wardle:
